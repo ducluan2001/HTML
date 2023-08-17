@@ -12,7 +12,7 @@
                 border-collapse: collapse;
                 text-align: center;
             }
-            .bang_2 {
+            .bang_1_2 {
                 border-collapse: collapse;
                 text-align: center;
                 margin: 20px 10px;
@@ -27,6 +27,18 @@
             .green {
                 background-color: #30e030;
             }
+            .text_bold {
+                font-weight: 500;
+            }
+            .bang_2 {
+                border-collapse: collapse;
+                text-align: center;
+                min-width: 600px;
+                text-transform: capitalize;
+            }
+            .bang_2 .text_bold{
+                font-weight: 600;
+            }
         </style>
     </head>
     <body>
@@ -34,14 +46,14 @@
             <tr>
                 <td>
                     <h1>KẾT QUẢ HỌC TẬP</h1>
-                    <table class="bang_2" border="1">
-                        <tr class="green">
+                    <table class="bang_1_2" border="1">
+                        <tr class="green text_bold">
                             <td rowspan="2">Họ và tên học sinh</td>
                             <td colspan="2">Năm sinh</td>
                             <td rowspan="2">Điểm TB</td>
                             <td rowspan="2">Xếp loại</td>
                         </tr>
-                        <tr class="green">
+                        <tr class="green text_bold">
                             <td>Nam</td>
                             <td>Nữ</td>
                         </tr>
@@ -80,7 +92,7 @@
                             <td>4.5</td>
                             <td>kém</td>
                         </tr>
-                        <tr class="green">
+                        <tr class="green text_bold">
                             <td colspan="3">Tổng số học sinh đạt:</td>
                             <td colspan="3">4 học sinh</td>
                         </tr>
@@ -89,5 +101,81 @@
             </tr>
         </table>
         <hr size="10px" style="background-color: red" />
+        <table class="bang_2" border="1">
+            <tr class="text_bold">
+                <td rowspan="2">STT</td>
+                <td rowspan="2">HỌ TÊN</td>
+                <td colspan="2">MÔN CƠ SỞ</td>
+                <td colspan="2">MÔN CHUYÊN NGÀNH</td>
+                <td colspan="2">MÔN CHÍNH TRỊ</td>
+            </tr>
+            <tr class="text_bold">
+                <td>học</t>
+                <td>tài liệu</t>
+                <td>học</t>
+                <td>tài liệu</t>
+                <td>học</t>
+                <td>tài liệu</t>
+            </tr>
+            <tr>
+                <td class="text_bold">1</td>
+                <td>hoàng anh</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td class="text_bold">2</td>
+                <td>Nguyễn hà</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td class="text_bold">3</td>
+                <td>đỗ kỳ</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td class="text_bold">4</td>
+                <td>lê long</td>
+                <td>X</td>
+                <td>x</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td class="">5</td>
+                <td>Phạm quang</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr class="text_bold">
+                <td colspan="2">tổng cộng</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>5</td>
+            </tr>
+        </table>
     </body>
 </html>
