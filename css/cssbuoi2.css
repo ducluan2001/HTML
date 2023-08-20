@@ -1,6 +1,10 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* bai 1 + 2 */
+.baitap {
+    padding: 20px 100px;
+}
 .bang_1 {
     border-collapse: collapse;
     text-align: center;
@@ -31,4 +35,41 @@
 }
 .bang_2 .text_bold {
     font-weight: 600;
+}
+/* bai 3 */
+.bang_3 {
+    color: white;
+    max-width: 1200px;
+}
+.ff {
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo {
+    text-align: center;
+    background-color: #db12e6;
+}
+.logo h2 {
+    font-size: 40px;
+    margin: unset;
+}
+.logo p {
+    font-size: 14px;
+    margin: unset;
+}
+.content {
+    color: black;
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+}
+.content_left {
+    max-width: 30%;
+    padding: 0 10px;
+    border-left: 3px solid #db12e6;
+}
+.content_right {
+    max-width: 70%;
+    padding: 0 10px;
+    border-left: 1px solid #5f5f5f;
+    height: 110px;
 }
