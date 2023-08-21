@@ -5,6 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
     </head>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input,
+        select {
+            max-width: 200px;
+        }
+        .label2 {
+            width: 150px;
+            display: inline-block;
+            text-transform: capitalize;
+            font-weight: bold;
+            height: 30px;
+        }
+        .ctn_form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid red;
+            padding: 50px;
+        }
+        option,
+        select {
+            text-transform: capitalize;
+        }
+    </style>
     <body>
         <h3>TAG embed</h3>
         <embed
@@ -15,7 +42,7 @@
         />
         <hr />
         <h3>TAG form</h3>
-        <form action="" method="">
+        <form class="form2" action="" method="">
             <label for="">input name: </label>
             <input type="text" name="name" /><br />
             <label for="">input password: </label>
@@ -27,7 +54,39 @@
             <input type="radio" name="name" />
             <input type="radio" name="name" /><br />
             <label for="">submit : </label>
-            <input type="submit" value="" />
+            <input type="submit" value="ok" />
         </form>
+        <hr />
+        <div class="ctn_form">
+            <form action="" method="">
+                <label class="label2" for="">enter name:</label>
+                <input type="text" /><br />
+                <label class="label2" for="">enter password:</label>
+                <input type="password" /><br />
+                <label class="label2" for="">enter email:</label>
+                <input type="text" /><br />
+                <div class="gender">
+                    <label class="label2" for="">enter gender:</label>
+                    <input type="radio" name="gender" /><span>Male</span>
+                    <input type="radio" name="gender" /><span>Female</span>
+                </div>
+                <div class="country">
+                    <label class="label2" for="">enter country:</label>
+                    <select name="" id="">
+                        <option value="">india</option>
+                        <option value="">vietnam</option>
+                        <option value="">laos</option>
+                        <option value="">china</option>
+                        <option value="">japan</option>
+                        <option value="">korea</option></select
+                    ><br />
+                    <input
+                        type="submit"
+                        value="Register"
+                        style="float: right"
+                    />
+                </div>
+            </form>
+        </div>
     </body>
 </html>
