@@ -36,7 +36,8 @@
             width: 100px;
             margin-top: 10px;
         }
-        input {
+        input,
+        select {
             outline: none;
         }
     </style>
@@ -152,11 +153,13 @@
                 <legend style="font-weight: bold; font-size: 40px">
                     User Profile
                 </legend>
-                <label class="label2" for="">enter name:</label>
+                <label class="label2" for=""
+                    >name <span style="color: red">*</span></label
+                >
                 <input type="text" /><br />
-                <label class="label2" for="">enter password:</label>
-                <input type="password" /><br />
-                <label class="label2" for="">enter email:</label>
+                <label class="label2" for=""
+                    >email <span style="color: red">*</span></label
+                >
                 <input type="text" /><br />
                 <label class="label2" for=""></label>
                 <input
@@ -176,15 +179,15 @@
                 <div class="text_a" style="display: flex">
                     <label class="label2" for="">Message:</label>
                     <textarea
-                        style="width: 600px"
+                        style="width: 600px; margin-left: 4px"
                         name=""
                         id=""
                         cols="10"
                         rows="10"
                     ></textarea>
                 </div>
-                <button class="btn_dk" style="margin-left: 150px">
-                    Đăng ký
+                <button class="btn_dk" style="margin-left: 154px">
+                    Save Changes
                 </button>
             </fieldset>
         </div>
