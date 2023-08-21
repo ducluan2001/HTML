@@ -26,10 +26,18 @@
             justify-content: center;
             border: 1px solid red;
             padding: 50px;
+            flex-direction: column;
         }
         option,
         select {
             text-transform: capitalize;
+        }
+        .btn_dk {
+            width: 100px;
+            margin-top: 10px;
+        }
+        input {
+            outline: none;
         }
     </style>
     <body>
@@ -57,7 +65,7 @@
             <input type="submit" value="ok" />
         </form>
         <hr />
-        <h3>Bài tập</h3>
+        <h3>Bài tập 1</h3>
         <div class="ctn_form">
             <form action="" method="">
                 <label class="label2" for="">enter name:</label>
@@ -88,6 +96,97 @@
                     />
                 </div>
             </form>
+        </div>
+        <hr />
+        <h3>Bài tập 2 - 3</h3>
+        <div class="ctn_form">
+            <form
+                action=""
+                style="background-color: rgb(28, 153, 211); padding: 50px 180px"
+            >
+                <label class="label2" for="">Họ tên:</label>
+                <input type="text" /><br />
+                <label class="label2" for="">mật khẩu:</label>
+                <input type="password" /><br />
+                <div class="email">
+                    <label class="label2" for="">enter email:</label>
+                    <input type="text" />
+                    <select style="text-transform: unset" id="">
+                        <option value="">@gmail.com</option>
+                        <option value="">@icloud.com</option>
+                        <option value="">@outlook.com</option>
+                    </select>
+                </div>
+                <div class="gender">
+                    <label class="label2" for="">giới tính:</label>
+                    <input type="radio" name="gender" /><span>nam</span>
+                    <input type="radio" name="gender" /><span>nữ</span>
+                </div>
+                <div class="section" style="display: flex">
+                    <label class="label2" for="">nghề nghiệp:</label>
+                    <select size="3" name="" id="" style="margin-bottom: 10px">
+                        <option value="">HS - SV</option>
+                        <option value="">GIÁO VIÊN</option>
+                        <option value="">CÔNG NHÂN</option>
+                    </select>
+                </div>
+                <div
+                    class="text_a"
+                    style="display: flex; flex-direction: column"
+                >
+                    <label class="label2" for="">ghi chú:</label>
+                    <textarea
+                        style="width: 400px"
+                        name=""
+                        id=""
+                        cols="10"
+                        rows="10"
+                    ></textarea>
+                </div>
+                <div class="btn">
+                    <button class="btn_dk">Đăng ký</button>
+                    <button class="btn_dk">Đăng nhập</button>
+                </div>
+            </form>
+            <fieldset style="background-color: #ebe717c2">
+                <legend style="font-weight: bold; font-size: 40px">
+                    User Profile
+                </legend>
+                <label class="label2" for="">enter name:</label>
+                <input type="text" /><br />
+                <label class="label2" for="">enter password:</label>
+                <input type="password" /><br />
+                <label class="label2" for="">enter email:</label>
+                <input type="text" /><br />
+                <label class="label2" for=""></label>
+                <input
+                    type="checkbox"
+                    style="margin: 0 5px 24px 0"
+                    name=""
+                    id=""
+                /><span>Send me email when there is update</span><br />
+                <label class="label2" for="">website:</label>
+                <input type="text" value="www.izwebz.com" /><br />
+                <label class="label2" for="">groub:</label>
+                <select name="" id="" style="margin-bottom: 10px">
+                    <option value="">Uploader</option>
+                    <option value="">file</option>
+                    <option value="">share</option>
+                </select>
+                <div class="text_a" style="display: flex">
+                    <label class="label2" for="">Message:</label>
+                    <textarea
+                        style="width: 600px"
+                        name=""
+                        id=""
+                        cols="10"
+                        rows="10"
+                    ></textarea>
+                </div>
+                <button class="btn_dk" style="margin-left: 150px">
+                    Đăng ký
+                </button>
+            </fieldset>
         </div>
     </body>
 </html>
