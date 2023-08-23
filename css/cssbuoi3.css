@@ -1,0 +1,76 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input,
+select {
+    max-width: 200px;
+}
+.label2 {
+    width: 150px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    height: 30px;
+}
+.ctn_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 200px;
+    flex-direction: column;
+}
+option,
+select {
+    text-transform: capitalize;
+}
+.btn_dk {
+    width: 100px;
+    margin-top: 10px;
+}
+input,
+select {
+    outline: none;
+}
+.link_sp {
+    text-decoration: none;
+}
+.form_cnt_fb {
+    border: 1px solid #444;
+    padding: 50px 100px;
+    max-width: 500px;
+}
+.iname {
+}
+.w100 {
+    min-width: 100%;
+}
+.name {
+    min-width: calc(93% / 2);
+    margin: 5px;
+}
+.email {
+    margin: 5px;
+    min-width: 97%;
+}
+.pass {
+    margin: 5px;
+    min-width: 97%;
+}
+.birthday {
+}
+.gender {
+}
+.text_end {
+}
+.link_sp {
+}
+.btn button {
+    background-color: rgb(3, 119, 3);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}

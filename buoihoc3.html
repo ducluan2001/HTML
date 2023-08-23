@@ -4,43 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" href="./css/cssbuoi3.css" />
     </head>
-    <style>
-        * {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        input,
-        select {
-            max-width: 200px;
-        }
-        .label2 {
-            width: 150px;
-            display: inline-block;
-            text-transform: capitalize;
-            font-weight: bold;
-            height: 30px;
-        }
-        .ctn_form {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid red;
-            padding: 50px;
-            flex-direction: column;
-        }
-        option,
-        select {
-            text-transform: capitalize;
-        }
-        .btn_dk {
-            width: 100px;
-            margin-top: 10px;
-        }
-        input,
-        select {
-            outline: none;
-        }
-    </style>
+
     <body>
         <h3>TAG embed</h3>
         <embed
@@ -192,21 +158,48 @@
             </fieldset>
         </div>
         <div class="form_fb ctn_form">
-            <form action="">
+            <form
+                class="form_cnt_fb"
+                action=""
+                style="
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    flex-direction: column;
+                "
+            >
                 <h2>Đăng ký</h2>
                 <p>miễn phí và sẽ luôn như vậy</p>
-                <div class="iname" style="display: flex">
-                    <input class="name" type="text" />
-                    <input class="name" type="text" />
+                <div class="iname w100" style="display: flex">
+                    <input placeholder="Họ" class="name" type="text" />
+                    <input placeholder="Tên" class="name" type="text" />
                 </div>
-                <div class="email">
-                    <input class="email" type="text" name="" id="" />
+                <div class="iemail w100">
+                    <input
+                        placeholder="Số di động hoặc email"
+                        class="email"
+                        type="text"
+                        name=""
+                        id=""
+                    />
                 </div>
-                <div class="email">
-                    <input class="email" type="text" name="" id="" />
+                <div class="iemail w100">
+                    <input
+                        placeholder="Nhập lại email hoặc số di động"
+                        class="email"
+                        type="text"
+                        name=""
+                        id=""
+                    />
                 </div>
-                <div class="pass">
-                    <input class="pass" type="text" name="" id="" />
+                <div class="ipass w100">
+                    <input
+                        placeholder="Nhập mật khẩu mới"
+                        class="pass"
+                        type="text"
+                        name=""
+                        id=""
+                    />
                 </div>
                 <div class="birthday">
                     <p>Ngày sinh</p>
@@ -259,7 +252,37 @@
                         <option value="">11</option>
                         <option value="">12</option>
                     </select>
-                    <select name="" id=""></select>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+                    </select>
+                    <a href="#" style="text-decoration: none"
+                        ><span
+                            >Tại sao tôi cần cung cấp ngày sinh của mình?</span
+                        ></a
+                    >
+                </div>
+                <div class="gender">
+                    <input type="radio" name="gender" id="" /><span>nam</span>
+                    <input type="radio" name="gender" id="" /><span>nữ</span>
+                </div>
+                <div class="text_end">
+                    <p>
+                        Bằng cách nhấp vào Đăng ký, bạn đồng ý với
+                        <a class="link_sp" href="#">Điều khoản</a>,
+                        <a class="link_sp" href="#"
+                            >Chính sách quyền riêng tư</a
+                        >
+                        và <a class="link_sp" href="#">Chính sách cookie</a> của
+                        chúng tôi. Bạn có thể nhận được thông báo của chúng tôi
+                        qua SMS và hủy nhận bất kỳ lúc nào.
+                    </p>
+                </div>
+                <div class="btn">
+                    <button>Đăng ký</button>
                 </div>
             </form>
         </div>
