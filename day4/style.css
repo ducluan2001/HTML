@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+input,
+select {
+    outline: none;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+}
+
+.form form {
+    min-width: 600px;
+    border: 1px solid yellowgreen;
+}
+
+.header_form {
+    background-color: yellowgreen;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.header_form h2 {
+    display: inline-block;
+    font-size: 24px;
+}
+.header_form select {
+    display: inline-block;
+    border: unset;
+    background-color: yellowgreen;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.content_form {
+    padding: 10px 20px;
+}
+
+.bgc {
+    background-color: rgba(153, 205, 50, 0.486);
+}
+.bder {
+    border: 1px solid #999;
+    padding: 2px 4px;
+    outline: none;
+}
+
+.iemail {
+}
+.label {
+    text-transform: capitalize;
+    width: 200px;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+.iId {
+}
+.iname {
+}
+.iteam {
+}
+.itype select {
+    width: 189px;
+}
+.ifrom {
+}
+.iTo {
+}
+.iofday {
+}
+.ireason {
+    display: flex;
+}
+.ireason textarea {
+    margin-left: 4px;
+    outline: none;
+    padding: 4px;
+}
+.end_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b6adad;
+    padding: 6px 0;
+}
+.btn {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(96, 143, 4);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: 1px solid #444;
+    margin-right: 4px;
+}
