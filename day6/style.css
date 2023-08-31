@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page {
+    border: 1px solid #333;
+    margin: 50px;
+    padding: 50px;
+}
+.nav {
+    color: white;
+    background: green;
+    text-align: center;
+    display: flex;
+}
+.nav li {
+    list-style: none;
+    font-size: 40px;
+    width: calc(100% / 5);
+    text-transform: capitalize;
+    border-right: 1px solid #8d8a8a;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e {
+    position: relative;
+}
+.nav2 {
+    display: none;
+    position: absolute;
+    top: 50px;
+}
+
+.nav2 li {
+    width: 438px;
+    border: unset;
+    border-bottom: 1px solid #7c7c7c;
+}
+
+li:last-child {
+    border-right: unset;
+}
+
+.nav .a:hover .nav2,
+.nav .b:hover .nav2,
+.nav .c:hover .nav2,
+.nav .d:hover .nav2,
+.nav .e:hover .nav2 {
+    background-color: orange;
+    display: block;
+    border: none;
+}
+
+.cnt {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.cnt_left {
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.cnt_left h1 {
+    margin: 0 0 40px 0;
+}
+.cnt_left li {
+    width: 50%;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-left: 50px;
+}
+.cnt_right {
+    margin-right: 20px;
+}
+.cnt_right img {
+    width: 800px;
+}
