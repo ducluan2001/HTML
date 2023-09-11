@@ -18,10 +18,11 @@
 
 .header {
     background-color: black;
+    padding: 4px 0;
 }
 
 .header h1 {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: capitalize;
     color: yellow;
     margin: 0 10px;
