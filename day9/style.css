@@ -101,6 +101,7 @@
 
 /* content */
 .content {
+    margin-left: 20px;
 }
 
 .cnt_1 {
@@ -135,10 +136,11 @@ p {
 }
 
 .cnt_left span {
-    font-size: 26px;
+    font-size: 24px;
     display: block;
     margin: 16px 0;
     font-weight: 500;
+    text-transform: capitalize;
 }
 .cnt_left p {
 }
