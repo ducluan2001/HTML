@@ -23,7 +23,7 @@
 
 .menu li {
     list-style: none;
-    padding: 4px 10px;
+    padding: 4px 20px;
 }
 
 .menu a {
@@ -77,7 +77,23 @@
     border-bottom: 1px solid #000;
     padding: 20px 0;
 }
+.item a {
+    color: #000;
+    text-decoration: none;
+}
 
 .item:last-child {
     border: unset;
+}
+
+.menu li:hover {
+    opacity: 0.5;
+}
+
+.cnt_left a:hover {
+    opacity: 0.8;
+}
+
+.item a:hover {
+    opacity: 0.8;
 }
