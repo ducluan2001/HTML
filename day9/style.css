@@ -160,6 +160,10 @@ p {
     padding-bottom: 20px;
 }
 
+.list:first-child {
+    margin-top: unset;
+}
+
 .list:last-child {
     border-bottom: unset;
 }
